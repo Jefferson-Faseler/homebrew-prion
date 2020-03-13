@@ -7,11 +7,11 @@ class Prion < Formula
 
   if OS.mac?
     url "https://github.com/Jefferson-Faseler/prion/releases/download/v0.1.5/prion_0.1.5_Darwin_x86_64.tar.gz"
-    sha256 "ec333f801bd3680165051f9c1a1431a92cf41868f7e5091aadcb92eaf7507a19"
+    sha256 "3f4f0f6d11fce8f4dd97182065b650dbd3e8dcbe5b9e95028e01cf9c54f5a609"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/Jefferson-Faseler/prion/releases/download/v0.1.5/prion_0.1.5_Linux_x86_64.tar.gz"
-      sha256 "c392595de2b1eab97605578275f9071f0f8e26eb1edd713246e03fd0aaf4f27d"
+      sha256 "aeb75d6ca711179ae9516b11d0c176d559a217ad41d1b638e709f44cd131a313"
     end
   end
   
