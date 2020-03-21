@@ -2,16 +2,16 @@
 class Prion < Formula
   desc "A vim package manager, designed for use with pathogen"
   homepage "https://github.com/Jefferson-Faseler/prion"
-  version "0.2.1"
+  version "0.2.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/Jefferson-Faseler/prion/releases/download/v0.2.1/prion_0.2.1_Darwin_x86_64.tar.gz"
-    sha256 "08c458ed0a2d4b5a88b3d3f60e533e8c4281fbbb1264d9c0def283641de94c3e"
+    url "https://github.com/Jefferson-Faseler/prion/releases/download/v0.2.2/prion_0.2.2_Darwin_x86_64.tar.gz"
+    sha256 "02b83218cb6c9ca5d44263411237813d7615b93736d1f17a322b78894c618736"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/Jefferson-Faseler/prion/releases/download/v0.2.1/prion_0.2.1_Linux_x86_64.tar.gz"
-      sha256 "2ae46c2fb1df345685505cb92c2301f196e7cd9e91a91349ffe580c41d0e3467"
+      url "https://github.com/Jefferson-Faseler/prion/releases/download/v0.2.2/prion_0.2.2_Linux_x86_64.tar.gz"
+      sha256 "dbe501ee0c0a8487839a0b3d02a060138c211dfd305902af5f0572373d73eca7"
     end
   end
   
