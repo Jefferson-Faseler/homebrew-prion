@@ -14,8 +14,8 @@ class Prion < Formula
       sha256 "69178d5d31a391621eae726ac1356bbb08f32ae84209ff16628f2d36aef5c964"
     end
   end
-  
-  depends_on "git"
+
+  depends_on "git" => "2.22.2"
 
   def install
     bin.install "prion"
